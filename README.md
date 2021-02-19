@@ -4,4 +4,4 @@ I made this project in Vue.js using Axios to call the OpenWeatherMapAPI to get t
 
 This is my first attempt at deploying to Heroku.
 
-See a live version of the app at: 
+See a live version of the app at: https://outside-weather.herokuapp.com/

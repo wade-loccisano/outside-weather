@@ -1,6 +1,6 @@
 <template>
   <div class="main-weather px-5" align="center">
-    <h1 class="pb-5">Weather conditions outside my house</h1>
+    <h1>Weather conditions outside my house</h1>
     <div class="container center" v-if="this.isLoaded">
       <b-card
         no-body
@@ -107,6 +107,9 @@ export default {
 </script>
 
 <style>
+.card-img-top {
+  max-height: 25vh;
+}
 .white {
     background-color: #C4FAF8;
 }
