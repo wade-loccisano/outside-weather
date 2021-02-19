@@ -1,24 +1,3 @@
 # outside-weather
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+I made this project in Vue.js using Axios to call the OpenWeatherMapAPI to get the current temperature and weather conditions outside my house. There is a radio button to conver the temperature between Kelvin, Celsius, and Fahrenheit. The image color will change depending on the current outside temperature (White -> Blue -> Yellow -> Red).
