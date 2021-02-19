@@ -47,7 +47,7 @@ export default {
     return {
       isLoaded: false,
       currentWeather: [],
-      selected: "K",
+      selected: "F",
       isWhite: false,
       isBlue: false,
       isYellow: false,
